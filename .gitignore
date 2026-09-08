@@ -1,0 +1,36 @@
+# ROS 2
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# C/C++
+*.o
+*.out
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+*.pem
+*.key
+*.secret
+
+# Logs
+*.log
+
+# Large local captures
+*.bag
+*.db3
